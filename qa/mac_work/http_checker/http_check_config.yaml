@@ -1,0 +1,27 @@
+# Log check results to a file
+file:
+# Whether to log to a file
+    log: true
+
+# Status log file (contains boolean 1 or 0)
+# indicating the overall result of the check (success/failure)
+    status_file: "/Users/user/PycharmProjects/qa/http_checker/logs/http_check.log"
+
+# The file for console output log
+    output_file: "/Users/user/PycharmProjects/qa/http_checker/logs/http_check.txt"
+
+# Configure checked sites here
+# Possible options:
+#
+# name - required - The name of the site
+# domain - required - The domain, WITHOUT protocol/www
+# uri - optional (default='/') - If the checked page is not the root. No leading slash.
+# https - optional (default=False) - Whether to use HTTPS
+
+sites:
+
+- name: "tracker"
+  domain: "tracker.rel.aivtools.com"
+
+
+

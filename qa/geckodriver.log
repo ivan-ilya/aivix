@@ -1,0 +1,86 @@
+1522871599267	geckodriver	INFO	geckodriver 0.20.0
+1522871599280	geckodriver	INFO	Listening on 127.0.0.1:53653
+1522873163163	geckodriver	INFO	geckodriver 0.20.0
+1522873163169	geckodriver	INFO	Listening on 127.0.0.1:53922
+1522874255881	geckodriver	INFO	geckodriver 0.20.0
+1522874255888	geckodriver	INFO	Listening on 127.0.0.1:54148
+1522874256907	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8_/x4vj4s8d3zv_7zfmv5j4fwr00000gn/T/rust_mozprofile.LcE7rzWCIBys"
+1522874258221	Marionette	INFO	Listening on port 2828
+2018-04-04 23:37:39.903 plugin-container[3057:235192] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-04-04 23:37:39.905 plugin-container[3057:235192] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9703, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522874796306	geckodriver	INFO	geckodriver 0.20.0
+1522874796314	geckodriver	INFO	Listening on 127.0.0.1:55465
+1522874797329	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8_/x4vj4s8d3zv_7zfmv5j4fwr00000gn/T/rust_mozprofile.me5kaq8puSYA"
+1522874798355	Marionette	ERROR	Error on starting server: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+[Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+MarionetteServer.prototype.start@chrome://marionette/content/server.js:95:19
+MarionetteComponent.prototype.init@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/marionette.js:217:5
+MarionetteComponent.prototype.handle@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/marionette.js:112:5
+
+2018-04-04 23:46:39.904 plugin-container[3069:240160] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-04-04 23:46:39.907 plugin-container[3069:240160] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522874878389	geckodriver	INFO	geckodriver 0.20.0
+1522874878395	geckodriver	INFO	Listening on 127.0.0.1:56421
+1522874879408	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8_/x4vj4s8d3zv_7zfmv5j4fwr00000gn/T/rust_mozprofile.APDuTZnApG4x"
+1522874880412	Marionette	ERROR	Error on starting server: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+[Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+MarionetteServer.prototype.start@chrome://marionette/content/server.js:95:19
+MarionetteComponent.prototype.init@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/marionette.js:217:5
+MarionetteComponent.prototype.handle@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/marionette.js:112:5
+
+2018-04-04 23:48:01.961 plugin-container[3097:241373] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-04-04 23:48:01.964 plugin-container[3097:241373] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1522875043474	geckodriver	INFO	geckodriver 0.20.0
+1522875043480	geckodriver	INFO	Listening on 127.0.0.1:57699
+1522875044496	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8_/x4vj4s8d3zv_7zfmv5j4fwr00000gn/T/rust_mozprofile.35b7WEAtyNeT"
+1522875045510	Marionette	ERROR	Error on starting server: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+[Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+MarionetteServer.prototype.start@chrome://marionette/content/server.js:95:19
+MarionetteComponent.prototype.init@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/marionette.js:217:5
+MarionetteComponent.prototype.handle@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/marionette.js:112:5
+
+2018-04-04 23:50:47.089 plugin-container[3108:242572] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-04-04 23:50:47.092 plugin-container[3108:242572] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522875081390	geckodriver	INFO	geckodriver 0.20.0
+1522875081397	geckodriver	INFO	Listening on 127.0.0.1:57971
+1522875082410	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8_/x4vj4s8d3zv_7zfmv5j4fwr00000gn/T/rust_mozprofile.7wNBf3O3CEXs"
+1522875083403	Marionette	INFO	Listening on port 2828
+2018-04-04 23:51:24.937 plugin-container[3116:243603] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x933b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-04-04 23:51:24.941 plugin-container[3116:243603] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9603, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522875151751	geckodriver	INFO	geckodriver 0.20.0
+1522875151757	geckodriver	INFO	Listening on 127.0.0.1:58974
+1522875152768	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8_/x4vj4s8d3zv_7zfmv5j4fwr00000gn/T/rust_mozprofile.uWV0D6KC8vVF"
+1522875153756	Marionette	INFO	Listening on port 2828
+2018-04-04 23:52:35.327 plugin-container[3143:244505] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-04-04 23:52:35.331 plugin-container[3143:244505] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522875221911	geckodriver	INFO	geckodriver 0.20.0
+1522875221918	geckodriver	INFO	Listening on 127.0.0.1:60206
+1522875222932	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8_/x4vj4s8d3zv_7zfmv5j4fwr00000gn/T/rust_mozprofile.AV46Jvo4O3sL"
+1522875223946	Marionette	ERROR	Error on starting server: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+[Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+MarionetteServer.prototype.start@chrome://marionette/content/server.js:95:19
+MarionetteComponent.prototype.init@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/marionette.js:217:5
+MarionetteComponent.prototype.handle@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/marionette.js:112:5
+
+2018-04-04 23:53:45.616 plugin-container[3152:245265] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-04-04 23:53:45.618 plugin-container[3152:245265] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
